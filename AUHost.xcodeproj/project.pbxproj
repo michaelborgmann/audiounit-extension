@@ -11,7 +11,69 @@
 		4C4E12FE23C694A700261BED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E12FD23C694A700261BED /* ViewController.swift */; };
 		4C4E130023C694A800261BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E12FF23C694A800261BED /* Assets.xcassets */; };
 		4C4E130323C694A800261BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E130123C694A800261BED /* Main.storyboard */; };
+		4C4E130C23C694C000261BED /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E130B23C694C000261BED /* AudioPlayer.swift */; };
+		4C4E134823C6954100261BED /* At Night.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E134723C6954100261BED /* At Night.m4a */; };
+		4C4E13F123C6A65400261BED /* DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E13F023C6A65400261BED /* DSPKernel.hpp */; };
+		4C4E13F523C6A65400261BED /* BufferedAudioBus.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E13F423C6A65400261BED /* BufferedAudioBus.hpp */; };
+		4C4E13F823C6A65400261BED /* VolumePluginDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E13F723C6A65400261BED /* VolumePluginDSPKernel.hpp */; };
+		4C4E140B23C6A65400261BED /* VolumePlugin.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C4E13EC23C6A65400261BED /* VolumePlugin.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C4E143F23C6A90800261BED /* AUFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E143D23C6A90800261BED /* AUFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4E144223C6A90800261BED /* AUFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4E143B23C6A90800261BED /* AUFramework.framework */; };
+		4C4E144323C6A90800261BED /* AUFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4E143B23C6A90800261BED /* AUFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4C4E144723C6A92F00261BED /* VolumePluginParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E140123C6A65400261BED /* VolumePluginParameters.swift */; };
+		4C4E144823C6A93300261BED /* VolumePluginAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E13FF23C6A65400261BED /* VolumePluginAudioUnit.swift */; };
+		4C4E144923C6A93800261BED /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E13FC23C6A65400261BED /* AudioUnitViewController.swift */; };
+		4C4E144A23C6A93C00261BED /* VolumePluginDSPKernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E13F723C6A65400261BED /* VolumePluginDSPKernel.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4E144C23C6A94400261BED /* DSPKernel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E13F023C6A65400261BED /* DSPKernel.hpp */; };
+		4C4E144E23C6A94A00261BED /* BufferedAudioBus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E13F423C6A65400261BED /* BufferedAudioBus.hpp */; };
+		4C4E145023C6A95F00261BED /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E140423C6A65400261BED /* AudioUnitViewController.xib */; };
+		4C4E145123C6A96300261BED /* AudioUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C4E140423C6A65400261BED /* AudioUnitViewController.xib */; };
+		4C4E145923C6B07000261BED /* VolumePluginDSPKernelAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4E13F623C6A65400261BED /* VolumePluginDSPKernelAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4E145A23C6B15300261BED /* VolumePluginDSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E13F923C6A65400261BED /* VolumePluginDSPKernel.mm */; };
+		4C4E145B23C6B15300261BED /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C4E13F223C6A65400261BED /* DSPKernel.mm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C4E140923C6A65400261BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4E12F023C694A700261BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4E13EB23C6A65400261BED;
+			remoteInfo = VolumePlugin;
+		};
+		4C4E144023C6A90800261BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C4E12F023C694A700261BED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C4E143A23C6A90800261BED;
+			remoteInfo = AUFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4E133423C694F600261BED /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C4E140B23C6A65400261BED /* VolumePlugin.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E134623C6952300261BED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4C4E144323C6A90800261BED /* AUFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4C4E12F823C694A700261BED /* AUHost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUHost.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +83,43 @@
 		4C4E130223C694A800261BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C4E130423C694A800261BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C4E130523C694A800261BED /* AUHost.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AUHost.entitlements; sourceTree = "<group>"; };
+		4C4E130B23C694C000261BED /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		4C4E134723C6954100261BED /* At Night.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "At Night.m4a"; sourceTree = "<group>"; };
+		4C4E13EC23C6A65400261BED /* VolumePlugin.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = VolumePlugin.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4E13F023C6A65400261BED /* DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
+		4C4E13F223C6A65400261BED /* DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
+		4C4E13F423C6A65400261BED /* BufferedAudioBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BufferedAudioBus.hpp; sourceTree = "<group>"; };
+		4C4E13F623C6A65400261BED /* VolumePluginDSPKernelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolumePluginDSPKernelAdapter.h; sourceTree = "<group>"; };
+		4C4E13F723C6A65400261BED /* VolumePluginDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VolumePluginDSPKernel.hpp; sourceTree = "<group>"; };
+		4C4E13F923C6A65400261BED /* VolumePluginDSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VolumePluginDSPKernel.mm; sourceTree = "<group>"; };
+		4C4E13FC23C6A65400261BED /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		4C4E13FF23C6A65400261BED /* VolumePluginAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumePluginAudioUnit.swift; sourceTree = "<group>"; };
+		4C4E140123C6A65400261BED /* VolumePluginParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumePluginParameters.swift; sourceTree = "<group>"; };
+		4C4E140523C6A65400261BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/AudioUnitViewController.xib; sourceTree = "<group>"; };
+		4C4E140723C6A65400261BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C4E140823C6A65400261BED /* VolumePlugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VolumePlugin.entitlements; sourceTree = "<group>"; };
+		4C4E143B23C6A90800261BED /* AUFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AUFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4E143D23C6A90800261BED /* AUFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AUFramework.h; sourceTree = "<group>"; };
+		4C4E143E23C6A90800261BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4C4E12F523C694A700261BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4E144223C6A90800261BED /* AUFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E13E923C6A65400261BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E143823C6A90800261BED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				4C4E12FA23C694A700261BED /* AUHost */,
+				4C4E13ED23C6A65400261BED /* VolumePlugin */,
+				4C4E143C23C6A90800261BED /* AUFramework */,
 				4C4E12F923C694A700261BED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				4C4E12F823C694A700261BED /* AUHost.app */,
+				4C4E13EC23C6A65400261BED /* VolumePlugin.appex */,
+				4C4E143B23C6A90800261BED /* AUFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,11 +158,88 @@
 				4C4E130123C694A800261BED /* Main.storyboard */,
 				4C4E130423C694A800261BED /* Info.plist */,
 				4C4E130523C694A800261BED /* AUHost.entitlements */,
+				4C4E130B23C694C000261BED /* AudioPlayer.swift */,
+				4C4E134723C6954100261BED /* At Night.m4a */,
 			);
 			path = AUHost;
 			sourceTree = "<group>";
 		};
+		4C4E13ED23C6A65400261BED /* VolumePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E140723C6A65400261BED /* Info.plist */,
+				4C4E140823C6A65400261BED /* VolumePlugin.entitlements */,
+			);
+			path = VolumePlugin;
+			sourceTree = "<group>";
+		};
+		4C4E13EE23C6A65400261BED /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E13F723C6A65400261BED /* VolumePluginDSPKernel.hpp */,
+				4C4E13F923C6A65400261BED /* VolumePluginDSPKernel.mm */,
+				4C4E13EF23C6A65400261BED /* Helpers */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		4C4E13EF23C6A65400261BED /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E13F023C6A65400261BED /* DSPKernel.hpp */,
+				4C4E13F223C6A65400261BED /* DSPKernel.mm */,
+				4C4E13F423C6A65400261BED /* BufferedAudioBus.hpp */,
+				4C4E13F623C6A65400261BED /* VolumePluginDSPKernelAdapter.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4C4E13FB23C6A65400261BED /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E13FC23C6A65400261BED /* AudioUnitViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4C4E13FE23C6A65400261BED /* Audio Unit */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E13FF23C6A65400261BED /* VolumePluginAudioUnit.swift */,
+				4C4E140123C6A65400261BED /* VolumePluginParameters.swift */,
+			);
+			path = "Audio Unit";
+			sourceTree = "<group>";
+		};
+		4C4E143C23C6A90800261BED /* AUFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4C4E143D23C6A90800261BED /* AUFramework.h */,
+				4C4E143E23C6A90800261BED /* Info.plist */,
+				4C4E140423C6A65400261BED /* AudioUnitViewController.xib */,
+				4C4E13EE23C6A65400261BED /* DSP */,
+				4C4E13FB23C6A65400261BED /* UI */,
+				4C4E13FE23C6A65400261BED /* Audio Unit */,
+			);
+			path = AUFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4C4E143623C6A90800261BED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4E144C23C6A94400261BED /* DSPKernel.hpp in Headers */,
+				4C4E144E23C6A94A00261BED /* BufferedAudioBus.hpp in Headers */,
+				4C4E145923C6B07000261BED /* VolumePluginDSPKernelAdapter.h in Headers */,
+				4C4E144A23C6A93C00261BED /* VolumePluginDSPKernel.hpp in Headers */,
+				4C4E143F23C6A90800261BED /* AUFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4C4E12F723C694A700261BED /* AUHost */ = {
@@ -73,15 +249,54 @@
 				4C4E12F423C694A700261BED /* Sources */,
 				4C4E12F523C694A700261BED /* Frameworks */,
 				4C4E12F623C694A700261BED /* Resources */,
+				4C4E133423C694F600261BED /* Embed App Extensions */,
+				4C4E134623C6952300261BED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4C4E140A23C6A65400261BED /* PBXTargetDependency */,
+				4C4E144123C6A90800261BED /* PBXTargetDependency */,
 			);
 			name = AUHost;
 			productName = AUHost;
 			productReference = 4C4E12F823C694A700261BED /* AUHost.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4C4E13EB23C6A65400261BED /* VolumePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4E140C23C6A65400261BED /* Build configuration list for PBXNativeTarget "VolumePlugin" */;
+			buildPhases = (
+				4C4E13E823C6A65400261BED /* Sources */,
+				4C4E13E923C6A65400261BED /* Frameworks */,
+				4C4E13EA23C6A65400261BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumePlugin;
+			productName = VolumePlugin;
+			productReference = 4C4E13EC23C6A65400261BED /* VolumePlugin.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4C4E143A23C6A90800261BED /* AUFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4E144423C6A90800261BED /* Build configuration list for PBXNativeTarget "AUFramework" */;
+			buildPhases = (
+				4C4E143623C6A90800261BED /* Headers */,
+				4C4E143723C6A90800261BED /* Sources */,
+				4C4E143823C6A90800261BED /* Frameworks */,
+				4C4E143923C6A90800261BED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUFramework;
+			productName = AUFramework;
+			productReference = 4C4E143B23C6A90800261BED /* AUFramework.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,6 +309,12 @@
 				ORGANIZATIONNAME = "Michael Borgmann";
 				TargetAttributes = {
 					4C4E12F723C694A700261BED = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4C4E13EB23C6A65400261BED = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4C4E143A23C6A90800261BED = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -112,6 +333,8 @@
 			projectRoot = "";
 			targets = (
 				4C4E12F723C694A700261BED /* AUHost */,
+				4C4E13EB23C6A65400261BED /* VolumePlugin */,
+				4C4E143A23C6A90800261BED /* AUFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -121,8 +344,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4E134823C6954100261BED /* At Night.m4a in Resources */,
 				4C4E130023C694A800261BED /* Assets.xcassets in Resources */,
 				4C4E130323C694A800261BED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E13EA23C6A65400261BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4E13F823C6A65400261BED /* VolumePluginDSPKernel.hpp in Resources */,
+				4C4E145123C6A96300261BED /* AudioUnitViewController.xib in Resources */,
+				4C4E13F123C6A65400261BED /* DSPKernel.hpp in Resources */,
+				4C4E13F523C6A65400261BED /* BufferedAudioBus.hpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E143923C6A90800261BED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4E145023C6A95F00261BED /* AudioUnitViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,10 +378,43 @@
 			files = (
 				4C4E12FE23C694A700261BED /* ViewController.swift in Sources */,
 				4C4E12FC23C694A700261BED /* AppDelegate.swift in Sources */,
+				4C4E130C23C694C000261BED /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E13E823C6A65400261BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C4E143723C6A90800261BED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4E145A23C6B15300261BED /* VolumePluginDSPKernel.mm in Sources */,
+				4C4E145B23C6B15300261BED /* DSPKernel.mm in Sources */,
+				4C4E144723C6A92F00261BED /* VolumePluginParameters.swift in Sources */,
+				4C4E144823C6A93300261BED /* VolumePluginAudioUnit.swift in Sources */,
+				4C4E144923C6A93800261BED /* AudioUnitViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C4E140A23C6A65400261BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4E13EB23C6A65400261BED /* VolumePlugin */;
+			targetProxy = 4C4E140923C6A65400261BED /* PBXContainerItemProxy */;
+		};
+		4C4E144123C6A90800261BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C4E143A23C6A90800261BED /* AUFramework */;
+			targetProxy = 4C4E144023C6A90800261BED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4C4E130123C694A800261BED /* Main.storyboard */ = {
@@ -147,6 +423,14 @@
 				4C4E130223C694A800261BED /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C4E140423C6A65400261BED /* AudioUnitViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C4E140523C6A65400261BED /* Base */,
+			);
+			name = AudioUnitViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -268,6 +552,7 @@
 		4C4E130923C694A800261BED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AUHost/AUHost.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,6 +573,7 @@
 		4C4E130A23C694A800261BED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = AUHost/AUHost.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +588,102 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.AUHost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C4E140D23C6A65400261BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VolumePlugin/VolumePlugin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VolumePlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.AUHost.VolumePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VolumePlugin/VolumePlugin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C4E140E23C6A65400261BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = VolumePlugin/VolumePlugin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = VolumePlugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.AUHost.VolumePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VolumePlugin/VolumePlugin-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4C4E144523C6A90800261BED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AUFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.AUFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C4E144623C6A90800261BED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = FNBTP68MJQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AUFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelborgmann.AUFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -322,6 +704,24 @@
 			buildConfigurations = (
 				4C4E130923C694A800261BED /* Debug */,
 				4C4E130A23C694A800261BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4E140C23C6A65400261BED /* Build configuration list for PBXNativeTarget "VolumePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4E140D23C6A65400261BED /* Debug */,
+				4C4E140E23C6A65400261BED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4E144423C6A90800261BED /* Build configuration list for PBXNativeTarget "AUFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4E144523C6A90800261BED /* Debug */,
+				4C4E144623C6A90800261BED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
